@@ -6,4 +6,4 @@ Presenters:
 
 * [Erasmo Purificato](https://erasmopurif.com/) (European Commission, Joint Research Centre, Ispra, Italy)
 * [Ludovico Boratto](https://www.ludovicoboratto.com/) (University of Cagliari, Italy)
-* [Jo{\~a}o Vinagre](https://joaoms.com/) (European Commission, Joint Research Centre, Seville, Spain)
+* [João Vinagre](https://joaoms.com/) (European Commission, Joint Research Centre, Seville, Spain)
