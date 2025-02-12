@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <title>DSA Data Access Tutorial UMAP 2025</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Leaflet to display OpenStreetMap -->
+  <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--==========================
+    Header
+    ============================-->
+    <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <h1><a href="#intro">DSA Data Access</a></h1>
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#audience">Audience</a></li>
+                    <li><a href="#structure">Structure</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#organizers">Presenters</a></li>
+                    <li><a href="#registration">Registration</a></li>
+                    <!-- <li><a href="#contacts">Contacts</a></li> -->
+                </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </header><!-- #header -->
+
+    <!--==========================
+    Intro Section
+    ============================-->
+    <section id="intro">
+        <div class="intro-container wow fadeIn">
+            <h1 class="mb-4 pb-0">Data Access under the EU Digital Services Act and its Impact on User Modelling Research</h1><br>
+            <p class="mb-4 pb-0" style="font-size: x-large;">Held as part of the 33rd ACM Conference on User Modeling, Adaptation and Personalization (<u><a href="https://www.um.org/umap2025/" target="_blank">UMAP 2025</a></u>)</p>
+            <p class="mb-4 pb-0" style="font-size: x-large;">16th-19th June 2025 - New York, USA</p>
+        </div>
+    </section>
+
+    <main id="main">
+
+    <!--==========================
+    Introduction Section
+    ============================-->
+    <section id="about" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>About the Tutorial</h2>
+                <p>
+                    The <strong>Digital Services Act</strong> (DSA) establishes a regulatory framework for online platforms and search engines in the European Union, focusing on mitigating systemic risks such as illegal content dissemination, fundamental rights violations, and impacts on electoral processes, public health, and gender-based violence. Very Large Online Platforms (<strong>VLOPs</strong>) and Very Large Search Engines (<strong>VLOSEs</strong>), defined as those with over 45 million active recipients, must provide data access for research to enable investigations into these risks and the development of solutions.
+                    This tutorial is tailored for the UMAP community, addressing the implications of the DSA for user modelling research. It will cover the DSA's key provisions and definitions, outline the procedural steps for accessing VLOP and VLOSE data, and discuss the technical aspects of data access requests. Participants will also explore the challenges and opportunities involved in working with this data.
+                    By the end of the tutorial, attendees will have a thorough understanding of the DSA's <strong>data access provisions</strong>, the technical and procedural requirements for accessing VLOP and VLOSE data, and the regulation's implications for user modelling research. They will be equipped to navigate the complexities of the DSA and contribute to the development of responsible and transparent online platforms.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Target Audience Section
+    ============================-->
+
+    <section id="audience" class="wow fadeInUp section-with-bg" style="padding: 60px 0 30px 0;">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Target Audience</h2>
+                <p>
+                    The main audience of the tutorial are <strong>researchers</strong> interested in conducting scientific work on <strong>systemic risks</strong> in the EU with <strong>online platform data</strong>, particularly those within the UMAP community and the broader field of user modelling. Our tutorial warmly welcomes researchers, practitioners, and professionals with varying levels of experience, from beginners to experts, as well as industry technologists. No specific prerequisites are required to participate in this tutorial, and the content is structured to be accessible to a diverse audience, including those new to the user modelling field. The tutorial is also of interest to an interdisciplinary audience, as the concepts and applications illustrated touch a range of fields. The tutorial will provide participating researchers with the necessary knowledge to plan and execute their research projects involving access to platform data under the DSA, including relating research questions to systemic risks, choosing the correct type of data access, proposing safeguards to data protection, privacy and confidentiality, and drafting a data access request.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Outline Section
+    ============================-->
+    <section id="structure" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Tentative Structure</h2>
+
+                <p>This tutorial will take place between 16th and 19th June 2025, as part of the 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP 2025).</p>
+                <p>The intended length is <strong>90 minutes</strong>. Here is an overview of the tutorial structure (<em>but the following outline might be modified</em>):</p>
+
+                <div style="margin: 10px auto 30px auto; width: 85%;">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col" class="time"><i>Duration</i></th>
+                            <th scope="col"><i>Content</i></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row" class="time"><strong>45 mins</strong></th>
+                            <td style="font-size: larger;"><strong>Part I: The DSA and the Data Access Provisions</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Introduction</strong> (5 mins)</div>
+                                <ul>
+                                    <li>Tutorial background, motivation, objectives, and relevance to UMAP community.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>The Digital Services Act</strong> (5 mins)</div>
+                                <ul>
+                                    <li>Objectives of the DSA;</li>
+                                    <li>Definitions and stakeholders;</li>
+                                    <li>Definition of systemic risks.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Access to Publicly Available Data</strong> (10 mins)</div>
+                                <ul>
+                                    <li>Eligibility;</li>
+                                    <li>Application process;</li>
+                                    <li>Technical means to access publicly available data.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Access to Private Data by Vetted Researchers</strong> (25 mins)</div>
+                                <ul>
+                                    <li>Data access request workflow;</li>
+                                    <li>Eligibility and research team;</li>
+                                    <li>Project description and duration;</li>
+                                    <li>Evaluation and amendments;</li>
+                                    <li>Technical means to access data;</li>
+                                    <li>Data protection, privacy and confidentiality;</li>
+                                    <li>Publication of results.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>45 mins</strong></th>
+                            <td style="font-size: larger;"><strong>Part II: Impact of DSA on User Modelling Research</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Mapping Research Questions to Systemic Risks</strong> (25 mins)</div>
+                                <ul>
+                                    <li>How the DSA's identified systemic risks can be connected to user modelling research questions;</li>
+                                    <li>How the DSA's data access provisions can facilitate investigation of these questions.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Interactive Q&A and Discussion</strong> (20 mins)</div>
+                                <ul>
+                                    <li>Open discussion about opportunities, challenges and future research directions.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Resources Section
+    ============================-->
+    <section id="resources" class="wow fadeInUp section-with-bg">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Resources</h2>
+                <!--
+                <ul>
+                    <li><a href="https://www.slideshare.net/slideshow/paradigm-shifts-in-user-modeling-a-journey-from-historical-foundations-to-emerging-trends/270005861" target="_blank">Slides</a></li>
+                    <li><a href="https://arxiv.org/abs/2402.09660" target="_blank">Survey on User Modeling and User Profiling</a></li>
+                    <li><a href="https://dl.acm.org/doi/10.1145/3631700.3653062" target="_blank">Tutorial summary</a></li>
+                </ul>
+
+                <p>If you find the topics and the slides of the tutorial useful for your research, we would appreciate an acknowledgment by citing our <b>survey on user modeling and user profiling</b>, on which the tutorial content is based:</p>
+                
+                <p><i>Erasmo Purificato, Ludovico Boratto, and Ernesto William De Luca. 2024. User Modeling and User Profiling: A Comprehensive Survey. CoRR abs/2402.09660. https://doi.org/10.48550/arXiv.2402.09660</i></p>
+
+                <p>and the <b>tutorial summary</b> in the UMAP '24 proceedings:</p>
+              
+                <p><i>Erasmo Purificato, Ludovico Boratto, and Ernesto William De Luca. 2024. Paradigm Shifts in User Modeling: A Journey from Historical Foundations to Emerging Trends. In Adjunct Proceedings of the 32nd ACM Conference on User Modeling, Adaptation and Personalization (UMAP Adjunct '24). Association for Computing Machinery, New York, NY, USA, 13-16. https://doi.org/10.1145/3631700.3653062</i></p>
+                -->
+            
+                <p>The resources of the tutorial will be published near the event.</p>
+            
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Presenters Section
+    ============================-->
+    <section id="organizers" class="wow fadeInUp services">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Presenters</h2>
+
+                <div class="row">
+
+                    <a href="https://erasmopurif.com" target="_blank">
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                            <div class="icon-box">
+                                <img class="circular--square img--fit--organisers" src="img/organisers/erasmo.png"/> <br>
+                                <h4 style="text-align: center;">
+                                    <a href="https://erasmopurif.com" target="_blank">Erasmo Purificato</a>
+                                </h4>
+                                <h5 style="text-align: center;">Scientific Project Officer</h5>
+                                <p style="text-align: center;">European Commission, Joint Research Centre<br>Ispra, Italy</p>
+                                <br>
+                                <h6 style="text-align: center;"><a href="mailto:erasmo.purificato@acm.org" target="_blank">erasmo.purificato [at] acm.org</a></h6>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.ludovicoboratto.com/" target="_blank">
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                            <div class="icon-box">
+                                <img class="circular--square img--fit--organisers" src="img/organisers/ludovico.jpg"/> <br>
+                                <h4 style="text-align: center;">
+                                    <a href="https://www.ludovicoboratto.com/" target="_blank">Ludovico Boratto</a>
+                                </h4>
+                                <h5 style="text-align: center;">Associate Professor</h5>
+                                <p style="text-align: center;">University of Cagliari<br>Cagliari, Italy</p>
+                                <br>
+                                <h6 style="text-align: center;"><a href="mailto:ludovico.boratto@acm.org" target="_blank">ludovico.boratto [at] acm.org</a></h6>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://joaoms.com/" target="_blank">
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                            <div class="icon-box">
+                                <img class="circular--square img--fit--organisers" src="img/organisers/joao_2x.jpeg"/> <br>
+                                <h4 style="text-align: center;">
+                                    <a href="https://joaoms.com/" target="_blank">João Vinagre</a>
+                                </h4>
+                                <h5 style="text-align: center;">Scientific Project Officer</h5>
+                                <p style="text-align: center;">European Commission, Joint Research Centre<br>Seville, Spain</p>
+                                <br>
+                                <h6 style="text-align: center;"><a href="mailto:joao.vinagre@ec.europa.eu" target="_blank">joao.vinagre [at] ec.europa.eu</a></h6>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--==========================
+    Registration Section
+    ============================-->
+    <section id="registration" class="wow fadeInUp section-with-bg">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Registration</h2>
+                <p>Registration to the tutorial will be managed by the UMAP 2025 main conference organization.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Contacts Section
+    ============================-->
+    <!--
+    <section id="contacts" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Contacts</h2>
+                <p>
+                    For any request you might have, please contact us at:<br>
+                    • <strong>Erasmo Purificato</strong>: erasmo.purificato [at] acm.org / erasmo.purificato [at] ec.europa.eu<br><br>
+                    • <strong>Ludovico Boratto</strong>: ludovico.boratto [at] acm.org<br><br>
+                    • <strong>João Vinagre</strong>: joao.binagre [at] ec.europa.eu
+                </p>
+            </div>
+        </div>
+
+    </section>
+    s-->
+
+</main>
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+  <!-- Font Awesome personal kit -->
+  <script src="https://kit.fontawesome.com/5b4f914426.js" crossorigin="anonymous"></script>
+
+  <!-- Leaflet for OpenStreetMap -->
+  <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+</body>
+
+</html>
